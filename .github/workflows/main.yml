@@ -7,7 +7,7 @@ on:
 
 jobs:
   build_site:
-    name: "builds site using antora"
+    name: "Build site with Antora"
     runs-on: [ubuntu-latest]
     steps:
       - name: Checkout
@@ -29,7 +29,7 @@ jobs:
      - name: Install gh-pages 
        id: install-gh-pages
        run: |
-         npg -g install gh-pages@2.2.0
+         npm -g install gh-pages@2.2.0
          git config user.email "kamesh.sampath@hotmail.com"
          git config user.name "kameshsampath"
      - name: Deploy site
