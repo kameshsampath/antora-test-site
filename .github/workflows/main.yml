@@ -40,7 +40,7 @@ jobs:
        uses: actions/download-artifact@v1
        with:
          name: site
-         path: "${{ github.workspace }}"
+         path: "${{ github.workspace }}/${{ env.SITE_DIR }}"
      - name: Install gh-pages 
        id: install-gh-pages
        run: |
