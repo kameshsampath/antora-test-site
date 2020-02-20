@@ -7,7 +7,7 @@ jobs:
     name: "builds site using antora"
     runs-on: [ubuntu-latest]
     steps:
-      - id: generate site
+      - id: generate_site
         name: "Generate site using antora site action"
         uses: actions/antora-site-action@v0.0.1
         with:
