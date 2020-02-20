@@ -1,0 +1,14 @@
+image:
+  name: antora/antora:2.1.2
+pages:
+  stage: deploy
+  only:
+  - master@antora/demo/docs-site
+  cache:
+    paths:
+    - .cache/
+  script:
+  - antora --fetch --cache-dir=.cache/antora --to-dir=public antora-playbook.yml
+  artifacts:
+    paths:
+    - public/

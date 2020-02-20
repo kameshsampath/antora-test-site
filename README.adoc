@@ -1,0 +1,42 @@
+= Antora Demo Site and Playbook Project
+// :idprefix:
+// :idseparator: -
+// URIs:
+:uri-project: https://antora.org
+:uri-org: https://gitlab.com/antora
+:uri-group: {uri-org}/demo
+:uri-repo: {uri-group}/docs-site
+:uri-demo-playbook: {uri-repo}/blob/master/antora-playbook.yml
+:uri-antora-docs: https://docs.antora.org/antora/latest
+:uri-docs-install: {uri-antora-docs}/install/install-antora/
+:uri-docs-playbook: {uri-antora-docs}/playbook/playbook-schema/
+:uri-docs-run: {uri-antora-docs}/run-antora/
+:uri-opendevise: https://opendevise.com
+
+This is the playbook project for the Antora demonstration site.
+
+To generate the demo site using this playbook project and the demo documentation components, you'll need to {uri-docs-install}[install the Antora CLI and default site generator].
+
+== Playbook
+
+An {uri-docs-playbook}[Antora playbook] is responsible for generating a documentation site.
+It contains the instructions a user wants to relay to an Antora site generator pipeline.
+These instructions include the content Antora should collect and the UI it should apply to the generated site.
+
+The file [.path]_antora-playbook.yml_ in this repository is the playbook used to produce the demo site.
+It tells Antora where to find the Component A and Component B remote content repositories and default UI.
+
+== Generate the Demo Site
+
+Once you've installed Antora and {uri-demo-playbook}[saved the demo playbook] ([.path]_antora-playbook.yml_) to a local directory, you're ready to {uri-docs-run}[run Antora].
+
+== Copyright and License
+
+Copyright (C) 2017-2019 OpenDevise Inc. and individual Antora Project contributors.
+
+Use of this software is granted under the terms of the https://www.mozilla.org/en-US/MPL/2.0/[Mozilla Public License Version 2.0] (MPL-2.0).
+See link:LICENSE[] to find the full license text.
+
+== Authors
+
+Development of Antora is led and sponsored by {uri-opendevise}[OpenDevise Inc].
