@@ -10,6 +10,8 @@ jobs:
     name: "builds site using antora"
     runs-on: [ubuntu-latest]
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
       - id: generate_site
         name: "Generate site using antora site action"
         uses: kameshsampath/antora-site-action@master
