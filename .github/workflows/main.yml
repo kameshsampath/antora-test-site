@@ -1,0 +1,14 @@
+name: Antora Test Site 
+
+on: [push]
+
+jobs:
+  build_site:
+    name: "builds site using antora"
+    runs-on: [ubuntu-latest]
+    steps:
+      - id: generate site
+        name: "Generate site using antora site action"
+        uses: actions/antora-site-action@v0.0.1
+        with:
+         antora_playbook: "antora-playbook.yml"	
