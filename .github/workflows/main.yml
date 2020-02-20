@@ -20,7 +20,7 @@ jobs:
         uses: actions/upload-artifact@v1.0.0
         with:
           name: site
-          path: gh-pages
+          path: docs
   deploy_site:
     runs-on: [ubuntu-latest]
     needs: [build_site]
