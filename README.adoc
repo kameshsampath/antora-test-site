@@ -1,4 +1,4 @@
-= Antora Demo Site and Playbook Project
+= Antora Demo Site and Playbook Project 
 // :idprefix:
 // :idseparator: -
 // URIs:
