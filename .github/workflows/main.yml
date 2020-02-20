@@ -40,15 +40,18 @@ jobs:
        uses: actions/download-artifact@v1
        with:
          name: site
+         path: "${{ github.workspace }}"
      - name: Install gh-pages 
        id: install-gh-pages
        run: |
          npm -g install gh-pages@2.2.0
          git config user.email "kamesh.sampath@hotmail.com"
          git config user.name "kameshsampath"
+       working-directory: "${{ github.workspace }}"
      - name: Deploy site
        run: |
          gh-pages --dotfiles --message "[skip ci] Publishing new documentation" --dist $SITE_DIR
+       working-directory: "${{ github.workspace }}"
        
       
         
