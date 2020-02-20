@@ -16,11 +16,14 @@ jobs:
         uses: kameshsampath/antora-site-action@master
         with:
          antora_playbook: antora-playbook.yml
+      - name: "List folder"
+        run: |
+           ls -ltr $GITHUB_WORKSPACE
       - name: "Upload generated site"
         uses: actions/upload-artifact@v1.0.0
         with:
           name: site
-          path: ../docs
+          path: $GITHUB_WORKSPACE/docs
   deploy_site:
     runs-on: [ubuntu-latest]
     needs: [build_site]
