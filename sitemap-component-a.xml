@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://antora.gitlab.io/demo/docs-site/component-a/1.5.6/admonition.html</loc>
+<lastmod>2020-02-20T06:40:13.329Z</lastmod>
+</url>
+<url>
+<loc>https://antora.gitlab.io/demo/docs-site/component-a/1.5.6/inline-text-formatting.html</loc>
+<lastmod>2020-02-20T06:40:13.329Z</lastmod>
+</url>
+<url>
+<loc>https://antora.gitlab.io/demo/docs-site/component-a/1.5.6/lists/ordered-list.html</loc>
+<lastmod>2020-02-20T06:40:13.329Z</lastmod>
+</url>
+<url>
+<loc>https://antora.gitlab.io/demo/docs-site/component-a/1.5.6/lists/unordered-list.html</loc>
+<lastmod>2020-02-20T06:40:13.329Z</lastmod>
+</url>
+<url>
+<loc>https://antora.gitlab.io/demo/docs-site/component-a/1.5.6/sidebar.html</loc>
+<lastmod>2020-02-20T06:40:13.329Z</lastmod>
+</url>
+<url>
+<loc>https://antora.gitlab.io/demo/docs-site/component-a/1.5.6/special-characters.html</loc>
+<lastmod>2020-02-20T06:40:13.329Z</lastmod>
+</url>
+<url>
+<loc>https://antora.gitlab.io/demo/docs-site/component-a/1.5.6/ui-macros.html</loc>
+<lastmod>2020-02-20T06:40:13.329Z</lastmod>
+</url>
+</urlset>
